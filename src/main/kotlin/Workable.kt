@@ -1,0 +1,4 @@
+interface Workable {
+    fun getSalary()
+
+}

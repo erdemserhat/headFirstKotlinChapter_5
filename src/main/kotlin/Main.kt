@@ -11,4 +11,13 @@ fun main(args: Array<String>) {
         println(myEmployee.socialMediaAccount.get(i).username)
     }
 
+    val myEmployee1:SoftwareDeveloper=SoftwareDeveloper("java","Mike","Anelo",
+        Email("Google","mike@gmail.com"),EducationStatus.PHD,EmployeePosition("Worker"),
+        Department("IT"), arrayListOf(SocialMediaAccount("Facebook","mike1221"),
+            SocialMediaAccount("Instagram","mike_ags")),Address("Turkey","Ankara","Kızılay",
+            12))
+
+    println(myEmployee1.work())
+
+
 }
