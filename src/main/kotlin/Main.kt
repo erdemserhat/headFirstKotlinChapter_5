@@ -19,5 +19,10 @@ fun main(args: Array<String>) {
 
     println(myEmployee1.work())
 
+    val cat=Animal("1","2","3")
+    val cat1=Animal("1","2")
+    val ca2=Animal("1")
+
+
 
 }
