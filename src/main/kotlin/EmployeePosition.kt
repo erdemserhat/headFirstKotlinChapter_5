@@ -1,0 +1,2 @@
+class EmployeePosition(position:String) {
+}

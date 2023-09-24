@@ -1,7 +1,14 @@
 fun main(args: Array<String>) {
-    println("Hello World!")
 
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-    println("Program arguments: ${args.joinToString()}")
+    val myEmployee:Employee=Employee("Mike","Anelo",
+        Email("Google","mike@gmail.com"),EducationStatus.PHD,EmployeePosition("Worker"),
+        Department("IT"), arrayListOf(SocialMediaAccount("Facebook","mike1221"),
+            SocialMediaAccount("Instagram","mike_ags")),Address("Turkey","Ankara","Kızılay",
+                12))
+
+
+    for(i in 0 until myEmployee.socialMediaAccount.size){
+        println(myEmployee.socialMediaAccount.get(i).username)
+    }
+
 }
